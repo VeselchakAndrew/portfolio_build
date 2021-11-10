@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("header.css");
+@import url("body.css");
+@import url("modal.css");
+
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--main-color: orangered;
+	--bg-color: rgb(226, 225, 225);
+}
+
+body {
+	font-family: "Roboto", Helvetica, sans-serif;
+}
+
+.wrapper {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+.highlight {
+	font-weight: 500;
+}
